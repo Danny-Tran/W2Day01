@@ -6,9 +6,9 @@ function getAndPrintHTML () {
         host: 'sytantris.github.io',
         path: '/http-examples/step2.html'
       };
-    // var body = '';
+    
     https.get(requestOptions, function(response){
-        // if(response.statusCode !== 200)
+        
         var body = '';
         
         response.setEncoding('utf8');
